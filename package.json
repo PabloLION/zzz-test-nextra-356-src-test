@@ -11,6 +11,8 @@
   "dependencies": {
     "@mdx-js/loader": "^2.1.2",
     "next": "12.2.3",
+    "nextra": "2.0.0-beta.10",
+    "nextra-theme-docs": "2.0.0-beta.10",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "typescript": "^4.7.4",
