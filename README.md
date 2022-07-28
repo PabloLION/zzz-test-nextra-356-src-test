@@ -4,8 +4,8 @@ Testing [shuding/nextra#356](https://github.com/shuding/nextra/issues/356)
 
 ## Feedback
 
-- In repro (6.) and (7.), with `beta.10` and `beta.9` respectively, the layout like header and sidebar is missing.
-- In repro (6.) and (7.), with `beta.10` and `beta.9`, the markdown (`.md`) files can be rendered correctly.
+- In repro (6.) and (7.), with `beta.10` and `beta.9` respectively, and "src/pages/", the layout like header and sidebar is missing.
+- In repro (6.) and (7.), with `beta.10` and `beta.9` respectively, and "src/pages/", the markdown (`.md`) files can be rendered correctly.
 
 ## Repro
 
@@ -18,3 +18,5 @@ Testing [shuding/nextra#356](https://github.com/shuding/nextra/issues/356)
 7. downgrade to beta9 `pnpm add nextra@2.0.0-beta.9 nextra-theme-docs@2.0.0-beta.9` (no layout like header and sidebar). No commit for this step.
 8. downgrade to stable version `pnpm add nextra@latest nextra-theme-docs@latest`, the sidebar is back.
 9. go back to stop 5 as it's the test result
+10. test `nextra-theme-blog` theme for [another issue](https://github.com/shuding/nextra/issues/597). `pnpm add nextra-theme-blog@2.0.0-beta.10`
+11. revert to step 9 as it's the test result.
